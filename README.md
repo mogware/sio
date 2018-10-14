@@ -35,7 +35,7 @@ void server()
 ```
 
 ```c
-static void client()
+void client()
 {
 	sio::socket_init();
 	sio::socket_t sock = sio::socket(AF_INET, SOCK_STREAM, 0);
