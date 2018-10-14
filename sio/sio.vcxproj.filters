@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.addrinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.os_arpa_inet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.os_errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.os_netdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.os_sys_socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.os_sys_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.os_sys_uio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.os_sys_utsname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.reactor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.reactor_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.sock_addr4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sio.sock_addr6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sio.addrinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.os_arpa_inet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.os_errno.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.os_netdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.os_sys_socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.os_sys_time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.os_sys_utsname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.reactor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.reactor_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.sock_addr4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sio.sock_addr6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sio.addrinfo.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sio.os_arpa_inet.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sio.os_errno.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sio.os_netdb.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sio.os_sys_socket.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sio.reactor.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sio.reactor_impl.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sio.sock_addr4.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sio.sock_addr6.inl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
